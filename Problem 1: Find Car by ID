@@ -1,0 +1,10 @@
+function findCarById(inventory, id) {
+  const car = inventory.find(car => car.id === id);
+  if (car) {
+    return `Car ${id} is a ${car.car_year} ${car.car_make} ${car.car_model}`;
+  } else {
+    return `Car with ID ${id} not found.`;
+  }
+}
+
+console.log(findCarById(inventory, 33)); // Example usage
