@@ -1,0 +1,7 @@
+function countCarsBefore2000(carYears) {
+  const count = carYears.filter(year => year < 2000).length;
+  return count;
+}
+
+const carYears = getCarYears(inventory);
+console.log(countCarsBefore2000(carYears)); // Example usage
