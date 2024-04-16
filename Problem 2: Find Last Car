@@ -1,0 +1,6 @@
+function findLastCar(inventory) {
+  const lastCar = inventory[inventory.length - 1];
+  return `Last car is a ${lastCar.car_make} ${lastCar.car_model}`;
+}
+
+console.log(findLastCar(inventory)); // Example usage
