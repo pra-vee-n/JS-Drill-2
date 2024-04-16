@@ -1,0 +1,6 @@
+function getCarYears(inventory) {
+  const carYears = inventory.map(car => car.car_year);
+  return carYears;
+}
+
+console.log(getCarYears(inventory)); // Example usage
